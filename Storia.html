@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Furniture4Future</title>
+  
+<head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+            rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+    <!--stile home tutte le pagine-->
+  <link rel="stylesheet" href="Stile1.css"/>
+  
+  
+    
+
+    <!-- Custom styles for this template -->
+</head>
+ <body>
+ <div class="container-fluid">
+ <nav class="navbar navbar-expand fixed-top bg">
+
+    <!--MENU-->
+        <input class="navbar" type="checkbox" id="ham-menu">
+        <label for="ham-menu">
+          <div class="hide-des">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </div>
+
+        </label>
+        <div class="full-page-green"></div>
+        <div class="ham-menu">
+          <ul class="centre-text bold-text :root">
+            <li><a href="/HOME.html"> Home</a></li>
+            <li><a href="Storia.html"> La nostra storia</a></li>
+            <li><a href="/Catalogo/Catalogo def.html">Catalogo</a></li>
+            <li><a href="/Progetti/pagina principale.html">Prima & Dopo</a></li>
+            <li><a href="/Parla con noi_F/Parla con noi.html">Workshop ed Eventi</a></li>
+            <li><a href="/Contattaci/ParlaConNoi.html">Contattaci</a></li>
+        </ul>
+        </div>
+
+     <!-- Barra Ricerca-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-5">
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+      <!-- Lente di Ingrandimento -->
+          <svg type="button" role="search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-search me-3" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+
+
+          <!-- Language Picker -->
+          <!-- <form action="" class=""> -->
+          <!--language-picker__form">-->
+          <div class="btn-group">
+            <button type="button" class="btn btn-outline dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#344a39" class="bi bi-globe"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+              </svg>
+
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#"><img src="img/ITA.jpg" width="16" height="16"> ITALIANO</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/EN.jpg" width="16" height="16"> ENGLISH</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/DE.jpg" width="16" height="16"> DEUTSCH</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/RO.jpg" width="16" height="16"> ROMÂNA</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/SPA.png" width="16" height="16"> ESPAÑOL</a></li>
+
+            </ul>
+          </div>
+
+          </form>
+
+        </div>
+    </div>
+    </nav>
+  </header>
+
+  <!-- punny intestazione  -->
+    
+    
+<main>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center back">
+      <div class="col-md-3 p-lg-3 mx-auto my-5">
+        <titolo class="display-4 fw-normal">Chi siamo</titolo> <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <h2 class="lead fw-normal"> La nostra storia</h2> <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      </div>
+      <div class="clearfix">
+        <img src="img/Noiiiii.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="image">
+        <h1>Come nasce Furniture4Future?</h1>
+        <br>
+          <p>Furniture4Future nasce nel 2013 nella tavernetta di Andreea, una delle tre fondatrici. In questo spazio abbiamo deciso di unire le nostre passioni per il restyling, l’arte e la pittura, l’amore per l’ambiente e soprattutto la nostra creatività per divertirci a ristrutturare vecchi mobili (nostri o trovati abbandonati) con lo scopo di regalare loro una nuova vita.</p>
+          <hr>
+          <br>
+          <h1>L'inizio del viaggio</h1>
+          <br>
+          <p>Fin da subito abbiamo voluto utilizzare il più possibile materiali di scarto e vernici avanzate; trattandosi inizialmente più che altro di un passatempo e un’occasione per stare insieme non potevamo permetterci molto altro, ma in ogni caso ci è sempre piaciuto moltissimo andare alla ricerca di vecchi mobili, legno e materiali vari, per non parlare dei mercatini dell'usato... un paradiso!</p>
+          <p>Ci siamo però presto rese conto che un’attività ricreativa nata per caso, giorno dopo giorno stava diventando un progetto più serio, al quale inavvertitamente stavamo dedicando sempre più tempo, energie, e impegno.
+            Motivate anche dal successo delle nostre prime opere all’interno della cerchia di amici, famigliari e conoscenti, abbiamo dunque deciso di mettere in piedi una vera e propria attività, dando origine a Furniture4Future.</p>
+          <hr>
+          <br>
+          <img src="img/pennelli colore.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" width="100px" height="300px" alt="image">
+
+
+          <h1>Obiettivi</h1>
+          <br>
+          <p>Come suggerivano i nostri iniziali interessi, l’obiettivo primario della nostra attività risiede tutt’ora nell’evitare gli sprechi e nell’avere un occhio di riguardo verso ciò che la maggior parte delle persone potrebbe definire obsoleto e irrecuperabile.
+            Quante volte vi è capitato di passare di fianco a mucchi di mobili rotti e accatastati? A noi tantissime. E quante volte avreste voluto rinnovare e rimettere a lucido magari un vecchio mobile di famiglia ma non sapevate a chi rivolgervi? Beh, noi vogliamo aiutare proprio in questo.</p>
+          <hr>
+          <br>
+          <h1>Il nostro primo contratto</h1>
+
+          <br>
+          <p>Nel 2015 abbiamo stipulato il nostro primo contratto con una ditta di ristrutturazioni. Ci eravamo infatti rese conto di quanto le vernici e altri prodotti specifici per il legno fossero l'ostacolo più grande in materia di reperibilità e costi; grazie a questo primo contratto, e ad altri successivi, ci siamo garantite l'accesso alle vernici avanzate e altri eventuali materiali di scarto provenienti dai lavori di ristrutturazione di case e condomini. Cosa ci guadagnano le ditte con cui ci siamo accordate? Quei materiali sono solo una seccatura da smaltire per loro; lasciandoli a noi risparmiano anche loro e contribuiscono alla diminuzione degli sprechi, aspetto sempre positivo!</p>
+          <br>
+          <img src="img/Smaltimento-legno-1170x660.jpg">
+          <hr>
+          <br>
+          <h1>Innovazione</h1>
+          <br>
+          <p>Nel corso degli anni abbiamo anche sviluppato una nuova idea: dare la possibilità alle persone non solo di portarci i mobili di cui vogliono disfarsi, ma anche di tracciarli per poter poi vedere come verranno utilizzati. Crediamo che avere la certezza che i materiali che ci vengono dati verranno effettivamente utilizzati e acquisteranno una nuova vita sia importante.
+          </p>
+          <hr>
+
+
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <nav class="navbar navbar-expand-sm fixed-down background-color #9ab09a">
+          <footer class="karen">
+              <li class="float-end">
+                  <a class="nav-link" href="/artgallery/ContactUs" text-align="left" style="color:#405d4a;">© http://www.bootstrap.com / https://www.w3schools.com</karen>
+              </li>
+              </li>
+              <a class="float-end">
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#405d4a" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+                    <i class="fa-brands fa-tiktok"></i> 
+              </a>
+              <a class="float-end">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#405d4a" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+            </a>
+            <a class="float-end">
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#405d4a" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </a>
+      </a>
+               <a class="float-end">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#405d4a" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+              </li>
+          </div>
+          </div>
+      </nav>
+  </footer>
+
+<!-- scritte footer -->
+  
+<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#344a39">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    /* function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    */
+  </script>
+
+</body>
+
+</html>
